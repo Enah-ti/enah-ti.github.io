@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./assets/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top; 
+    background-size: cover;
+    font-familly: Century Gotic;
+}
+.banner {
+    height: 100vh;
+}
+
+.banner h1 {
+    color: #fff;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.banner .row img {
+    filter: drop-shadow(16px 16px 4px black);
+}
+
+.banner h1 {
+    text-shadow: 1px 1px 1px darkblue;
+    font-weight: bold
+}
+
+.about {
+    background: url('./assets/images/about.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    border-radius: 50% 20% / 10% 40%;
+}
+

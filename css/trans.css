@@ -1,0 +1,26 @@
+
+.trans_left {
+    position: relative;
+    animation-name: textmove;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    // animation-delay: 2s;
+}
+.trans_right {
+    position: relative;
+    animation-name: textmove_r;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    // animation-delay: 2s;
+}
+
+
+
+@keyframes textmove {
+    from {right: 300px;}
+    to {right: 0px;}
+}
+@keyframes textmove_r {
+    from {left: 300px;}
+    to {left: 0px;}
+}

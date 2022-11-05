@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main{
+	background-image: url(../img/background.jpg);
+	box-shadow: inset 0px 12px 7px rgba(192, 192, 192, .4);
+}
+/* main{
+	background: url(../img/Lifiled.jpeg);
+	height: 650px;
+	width: 160%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	/* margin-top:8%; */
+} */
+.icon{
+	font-size: 83px !important;
+}
+
+.imglifiled2{
+	margin-top: 40px;
+	/* width: 537px; */
+    /* height: 309px; */
+    margin-left: -12px;
+    border-radius: 50% 20% / 10% 40%;
+	box-shadow: 20px 16px #a8c7f1;
+}
+.pr{
+	margin-top: 3%;
+}
+.formulaire{
+	padding-top: 5%;
+	cursor: pointer;
+
+
+}
+.red0{
+	padding-top: 2%;
+}
+.imglifiled{
+    height: 300px;
+	text-align: center;
+}
+
+.e{
+	color: white;
+}
+.card-body:hover{
+background: black;
+color: white;
+}
+
+
+
+/* TAFH */
+
+.card {
+	box-shadow: 16px 12px #a8c7f1;
+} 
+.om span {
+    filter: drop-shadow(12px 16px 2px silver);
+}
+.hd-75 {
+	height: 70vh;
+}
+.hd-50 {
+	height: 50vh;
+}
+.h {
+	height: 100% !important:
+}
+.row {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+footer {
+	background: black;
+	height: 50vh;
+	width: 100%;
+	margin: 0;
+	color: #dfdede;
+}
+footer p {
+	/* color: red; */
+	color: #dfdede;
+}
+
+
+.bg-blue {
+	background-color: #a8c7f1 !important;
+}
+@media (max-width: 767.98px) {
+	.md_margin_bottom {
+		margin-top: 3rem !important;
+	}
+	.domain {
+		width: 100% !important;
+	}
+	.hd-75 {
+		height: auto;
+	}
+	.hd-50 {
+		height: auto;
+	}
+}
